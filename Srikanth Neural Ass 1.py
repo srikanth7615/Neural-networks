@@ -5,6 +5,8 @@ if len(input_str)>= 2:
  print(input_str)  # printing the output after deletion
  res_str=input_str[::-1] # Reversing the string after deletion
  print("".join(res_str)) # printing the final reversed String
+
+
 #question 1(b) operations on Two Numbers
 num1=int(input("First number"))      # user defined numbers
 num2=int(input("Second number"))
@@ -16,11 +18,19 @@ print(sum)
 print(difference)
 print(product)
 print(quotient)
+
+
+
+
 # Question 2(replacing the sentence)
 sentence = ("i love playing with python")
 print(sentence)          # printing the sentence which is given
 output_sentence= sentence.replace('python','pythons') # Replacing the given "python" with "Pythons"
 print(output_sentence)
+
+
+
+
 # Question 3 (Printing the Grades)
 cls_score=int(input("Enter the score:"))
 if cls_score>=90:   # if class score is greater than or equal to 90 then the grade is A
